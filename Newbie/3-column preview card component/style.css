@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@400;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@300;400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100%;
+    font-size: 15px;
+}
+
+a {
+    color: blue;
+}
+
+img {
+    padding: 35px;
+    width: 125px;
+}
+
+h2 {
+    padding: 0px 35px 35px 35px;
+    font-size: 35px;
+    text-transform: uppercase;
+    font-family: 'Big Shoulders Display', cursive;
+    color: hsl(0, 0%, 95%);
+}
+
+p {
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 15px;
+    max-width: 250px;
+    padding: 0px 35px 35px 35px;
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+button {
+    outline: none;
+    background: hsl(0, 0%, 95%);
+    border: none;
+    margin: 70px 35px 0px 35px;
+    max-width: 130px;
+    padding: 15px 15px;
+    border-radius: 50px;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+button:hover {
+    cursor: pointer;
+    background: hsla(0, 0%, 100%, 0.75);
+}
+
+
+.card-gallery {
+    margin: 30px;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card-container {
+    height: 500px;
+    width: 300px;
+}
+
+.sedans {
+    background: hsl(31, 77%, 52%);
+    border-radius: 13px 0 0 13px;
+}
+
+.suvs {
+    background: hsl(184, 100%, 22%);
+}
+
+.luxury {
+    background: hsl(179, 100%, 13%);
+    border-radius: 0 13px 13px 0;
+}
+
+.attribution {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+}
+
+@media(max-width: 375px) {
+    .sedans {
+        border-radius: 13px 13px 0 0;
+    }
+
+    .suvs {
+        border-radius: none;
+    }
+
+    .luxury {
+        border-radius: 0 0 13px 13px;
+    }
+
+    button {
+        margin-top: 0;
+    }
+
+    .card-container {
+        height: 430px;
+    }
+
+    .attribution {
+        display: none;
+    }
+}
