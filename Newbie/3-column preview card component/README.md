@@ -30,8 +30,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here](https://www.frontendmentor.io/challenges/3column-preview-card-component-pH92eAR2-/hub/frontend-mentor-3column-preview-card-component-iXWrghr8sM)
+- Live Site URL: [Add live site URL here](https://lcscostadev.github.io/frontendmentor-challenges/Newbie/3-column%20preview%20card%20component)
 
 
 ### Built with
@@ -47,7 +47,7 @@ Since React ive been using a lot of tailwind css and i haven't practiced raw css
 
 ### Continued development
 
-as I finished this project pretty quickly, in order not to think so much, I believe that my code was not as clean as possible, so my next focus is to improve without doing so many code repetitions
+As I finished this project pretty quickly, in order not to think so much, I believe that my code was not as clean as possible, so my next focus is to improve without doing so many code repetitions.
 
 ## Author
 
