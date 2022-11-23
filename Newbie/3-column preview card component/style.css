@@ -14,7 +14,8 @@ body {
 }
 
 a {
-    color: blue;
+    color: inherit;
+    text-decoration: none;
 }
 
 img {
@@ -47,12 +48,17 @@ button {
     padding: 15px 15px;
     border-radius: 50px;
     font-size: 13px;
-    font-weight: bold;
+    font-weight: normal;
+    border: 1px solid hsla(0, 0%, 100%, 0.75);
 }
 
 button:hover {
     cursor: pointer;
-    background: hsla(0, 0%, 100%, 0.75);
+    background: transparent
+}
+
+button:hover a {
+    color: hsla(0, 0%, 100%, 0.75);
 }
 
 
@@ -72,7 +78,7 @@ button:hover {
 
 .sedans {
     background: hsl(31, 77%, 52%);
-    border-radius: 13px 0 0 13px;
+    border-radius: 10px 0 0 10px;
 }
 
 .suvs {
@@ -81,7 +87,7 @@ button:hover {
 
 .luxury {
     background: hsl(179, 100%, 13%);
-    border-radius: 0 13px 13px 0;
+    border-radius: 0 10px 10px 0;
 }
 
 .attribution {
