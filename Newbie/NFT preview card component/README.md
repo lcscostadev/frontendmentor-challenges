@@ -27,14 +27,14 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshots/desktop-screenshot.png)
 ![](./screenshots/mobile-screenshot.png)
+![](./screenshots/desktop-screenshot.png)
 
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/nft-preview-card-component-A5ArHr74-M)
+- Live Site URL: [Add live site URL here](https://lcscostadev.github.io/frontendmentor-challenges/Newbie/NFT%20preview%20card%20component)
 
 ## My process
 
