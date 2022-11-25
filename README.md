@@ -7,3 +7,8 @@
 https://lcscostadev.github.io/frontendmentor-challenges/Newbie/3-column%20preview%20card%20component
 
 ![](Newbie/3-column%20preview%20card%20component/images/screenshot-desktop.png)
+
+NFT preview card component
+
+https://lcscostadev.github.io/frontendmentor-challenges/Newbie/NFT%20preview%20card%20component
+
