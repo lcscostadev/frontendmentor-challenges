@@ -10,7 +10,7 @@ https://lcscostadev.github.io/frontendmentor-challenges/Newbie/3-column%20previe
 
 NFT preview card component
 
-![](Newbie/NFT%20preview%20card%20component/screenshots/desktop-screenshot.png)
+![](Newbie/NFT%20preview%20card%20component/screenshots/mobile-screenshot.png)
 
 https://lcscostadev.github.io/frontendmentor-challenges/Newbie/NFT%20preview%20card%20component
 
