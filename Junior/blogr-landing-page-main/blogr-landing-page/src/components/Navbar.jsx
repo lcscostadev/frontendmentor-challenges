@@ -1,4 +1,5 @@
 import React from 'react';
+import './Navbar.css';
 import { hamburger, Logo } from '../assets';
 
 const Navbar = () => {
