@@ -32,7 +32,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Add solution URL here](https://github.com/lcscostadev/frontendmentor-challenges/tree/main/Newbie/Interactive%20rating%20component/interactive%20rating)
 - Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
 ## My process
