@@ -1,0 +1,139 @@
+:root {
+  --paragraph-color: #959eac;
+  --white-text: #ffffff;
+  --buttons-gray: #7c8798;
+  --panel-color: #252d37;
+  --star-button: #fb7413;
+  --very-dark-blue: #121417;
+  --bg-buttons: #333b44;
+
+  --main-font: 'Overpass', sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: var(--very-dark-blue);
+  font-family: var(--main-font);
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  background: var(--panel-color);
+  width: 300px;
+  height: 340px;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.panel {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.star {
+  background-color: var(--bg-buttons);
+  padding: 10px;
+  width: 35px;
+  border-radius: 50px;
+}
+
+.title,
+.thank-page h1 {
+  color: var(--white-text);
+  font-size: 1.6rem;
+}
+
+.paragraph {
+  color: var(--buttons-gray);
+  font-size: .83rem;
+  font-weight: bold;
+}
+
+.btn-group {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.btn {
+  border: 2px solid var(--bg-buttons);
+  outline: none;
+  padding: 15px;
+  border-radius: 50%;
+  height: 45px;
+  width: 45px;
+  background: var(--bg-buttons);
+  color: var(--buttons-gray);
+  font-weight: bold;
+  cursor: pointer;
+  transition: all ease-in .3s;
+}
+
+.btn:hover,
+.btn:focus {
+  color: white;
+  border: 2px solid white;
+}
+
+
+.submit-btn {
+  border: none;
+  outline: none;
+  color: var(--white-text);
+  background: var(--star-button);
+  padding: 11px;
+  border-radius: 90px;
+  font-size: 0.800rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  transition: all ease-in-out .3s;
+  cursor: pointer;
+}
+
+.submit-btn:hover {
+  background: var(--white-text);
+  color: var(--star-button);
+}
+
+.thank-page {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  background: var(--panel-color);
+  width: 300px;
+  height: 340px;
+  padding: 0px 20px;
+  border-radius: 20px;
+  gap: 20px;
+}
+
+.thank-page img {
+  width: 140px;
+}
+
+.thank-page span {
+  background: var(--bg-buttons);
+  padding: 5px 10px;
+  font-size: .83rem;
+  color: var(--star-button);
+  border-radius: 50px;
+}
+
+.thank-page p {
+  padding: 5px 0;
+  font-size: .83rem;
+  color: var(--paragraph-color);
+}
