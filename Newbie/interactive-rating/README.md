@@ -33,7 +33,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Add solution URL here](https://github.com/lcscostadev/frontendmentor-challenges/tree/main/Newbie/Interactive%20rating%20component/interactive%20rating)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Add live site URL here](https://lcscostadev.github.io/frontendmentor-challenges/Newbie/interactive-rating/)
 
 ## My process
 I've started with the css first to make closest possible to the original screenshot's then re built some things like changing the section to a form and make the buttons dinamically, then just finished using the ternary operator to make the swap for the thank page.
