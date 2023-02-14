@@ -13,5 +13,3 @@ export {
     ilustrationMobile,
     ilustrationDesktop,
 }
-
-// test
